@@ -183,9 +183,14 @@ def api_get(url: str, via_proxy: bool) -> dict:
             body = gzip.decompress(raw) if encoding == "gzip" else raw
             print(f"  GET {via} attempt {attempt}: HTTP {resp.status}, {time.time() - t0:.1f}s, "
                   f"{len(raw) // 1024} KB sent, {len(body) // 1024} KB unpacked")
-            data = json.loads(body)
+            try:
+                data = json.loads(body)
+            except ValueError:
+                data = None
             if not isinstance(data, dict) or "response" not in data:
-                raise RuntimeError(f"Kmart search via {via}: unexpected reply: {str(data)[:300]}")
+                # A 200 that isn't the search JSON is a block/challenge page, like Target's Akamai page.
+                raise KmartBlocked(f"Kmart search via {via}: not search JSON (block page?): "
+                                   f"{body[:120].decode(errors='replace')!r}")
             return data
         except urllib.error.HTTPError as e:
             print(f"  GET {via} attempt {attempt}: HTTP {e.code} after {time.time() - t0:.1f}s")

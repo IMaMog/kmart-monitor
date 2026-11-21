@@ -24,7 +24,7 @@ The `filters[Seller]=Kmart` parameter means a single request returns everything 
 
 ### Proxy fallback (optional)
 
-Constructor doesn't block GitHub today, so every check goes direct first, which takes about half a second. If you set the `KMART_PROXY` secret, a check that gets HTTP 403/429 or can't connect retries through the proxy, then stays on the proxy for the rest of that check. Discord requests never use the proxy. You can reuse the same proxy as the Target monitor.
+Constructor doesn't block GitHub today, so every check goes direct first, which takes about half a second. If you set the `KMART_PROXY` secret, a check retries through the proxy when it's blocked or refused: HTTP 403/429, a block page in place of the search results, or a failed connection. It then stays on the proxy for the rest of that check, and the next check tries direct again. Discord requests never use the proxy. You can reuse the same proxy as the Target monitor.
 
 - Format: `host:port:user:pass` (the usual provider export), `host:port`, or `http://user:pass@host:port`.
 - The run log shows the proxy's host and the shape of the value, never the password, so a bad paste can be spotted.
