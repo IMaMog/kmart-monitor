@@ -1,0 +1,1197 @@
+{
+  "board_message_ids": [
+    "1573569098913423430",
+    "1573569104789512193",
+    "1573569108899921992",
+    "1573569112590778489",
+    "1573569118072995864",
+    "1573569121403015185"
+  ],
+  "products": {
+    "43172382": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/ee17d270-db54-4b39-8cb2-3dedca6af193/43172382-1?io=transform:extend,width:580,height:725",
+      "price": 6.0,
+      "release": null,
+      "sku": "43172382",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Back Issue Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-back-issue-blister-pack-assorted-43172382/",
+      "was_price": null
+    },
+    "43300563": {
+      "clearance": true,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/bbbf50be-9513-4373-abd8-d801c958d63d/43300563-1?io=transform:extend,width:580,height:725",
+      "price": 8.0,
+      "release": "2023-03-31",
+      "sku": "43300563",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-assorted-43300563/",
+      "was_price": null
+    },
+    "43405817": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/60539b8b-e066-47bc-b526-8cf8ad41f630/43405817-1?io=transform:extend,width:580,height:725",
+      "price": 7.0,
+      "release": "2024-03-22",
+      "sku": "43405817",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet Temporal Forces Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-temporal-forces-blister-pack-assorted-43405817/",
+      "was_price": null
+    },
+    "43451630": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/7b457b82-553b-477a-abeb-52200ac86951/43451630-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": null,
+      "sku": "43451630",
+      "states": [
+        "ACT",
+        "NSW",
+        "QLD",
+        "SA",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Triple Whammy Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-triple-whammy-tin-assorted-43451630/",
+      "was_price": null
+    },
+    "43485390": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/090c0b58-05bd-4e46-b7ec-a64e729be502/43485390-1?io=transform:extend,width:580,height:725",
+      "price": 40.0,
+      "release": null,
+      "sku": "43485390",
+      "states": [
+        "NSW",
+        "QLD",
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Battle Academy 2024",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-battle-academy-2024-43485390/",
+      "was_price": null
+    },
+    "43556656": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fc0469d5-a3dd-4fa7-a23b-c4df94bbba47/43556656-1?io=transform:extend,width:580,height:725",
+      "price": 28.0,
+      "release": "2025-01-17",
+      "sku": "43556656",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet and Violet Prismatic Evolution Tech Sticker Collection - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-prismatic-evolution-tech-sticker-collection-assorted-43556656/",
+      "was_price": null
+    },
+    "43556663": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/35b8d263-7089-478b-b89b-507009dfe58d/43556663-1?io=transform:extend,width:580,height:725",
+      "price": 79.0,
+      "release": "2025-01-17",
+      "sku": "43556663",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet Prismatic Evolutions Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-prismatic-evolutions-elite-trainer-box-43556663/",
+      "was_price": null
+    },
+    "43556670": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/061d8b27-be3e-4221-b0a5-accaef7f283a/43556670-1?io=transform:extend,width:580,height:725",
+      "price": 18.0,
+      "release": "2026-02-20",
+      "sku": "43556670",
+      "states": [
+        "NSW",
+        "QLD",
+        "SA",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet Prismatic Evolutions Mini Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-prismatic-evolutions-mini-tin-assorted-43556670/",
+      "was_price": null
+    },
+    "43556687": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fc09fa40-c8dd-4a86-ad1b-5d96d42d1f36/43556687-1?io=transform:extend,width:580,height:725",
+      "price": 45.0,
+      "release": "2025-03-14",
+      "sku": "43556687",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet Prismatic Evolutions Surprise Box - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-prismatic-evolutions-surprise-box-assorted-43556687/",
+      "was_price": null
+    },
+    "43556700": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/7f24fdcc-fe24-4947-b5b4-ba08c620f247/43556700-1?io=transform:extend,width:580,height:725",
+      "price": 40.0,
+      "release": "2025-03-14",
+      "sku": "43556700",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet & Violet Prismatic Evolutions Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-prismatic-evolutions-booster-bundle-43556700/",
+      "was_price": null
+    },
+    "43580606": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/1b8b9b09-bc41-4c39-b177-3880aa567620/43580606-1?io=transform:extend,width:580,height:725",
+      "price": 59.0,
+      "release": "2026-03-20",
+      "sku": "43580606",
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Charizard Ex Special Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-charizard-ex-special-collection-43580606/",
+      "was_price": null
+    },
+    "43580651": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/283cb926-6a37-4cac-8f18-1ee2e06571ca/43580651-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": null,
+      "sku": "43580651",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Hop's Zacian Ex Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-hop's-zacian-ex-box-43580651/",
+      "was_price": null
+    },
+    "43580668": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/c2a86df7-6b5f-4fea-bdb3-4f93c634a78b/43580668-1?io=transform:extend,width:580,height:725",
+      "price": 8.5,
+      "release": "2025-04-11",
+      "sku": "43580668",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet and Violet Journey Together Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-journey-together-blister-pack-assorted-43580668/",
+      "was_price": null
+    },
+    "43580675": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/3ece2ceb-9c78-49f6-9b51-19a9fb447354/43580675-1?io=transform:extend,width:580,height:725",
+      "price": 22.0,
+      "release": "2025-04-11",
+      "sku": "43580675",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "3 Pack Pokemon Trading Card Game: Journey Together Booster Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/3-pack-pokemon-trading-card-game:-journey-together-booster-blister-pack-assorted-43580675/",
+      "was_price": null
+    },
+    "43610457": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/6a493fef-4ae2-41d6-a97c-dcfaf2294700/43610457-1?io=transform:extend,width:580,height:725",
+      "price": 35.0,
+      "release": "2025-11-25",
+      "sku": "43610457",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Crown Zenith Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-crown-zenith-tin-assorted-43610457/",
+      "was_price": null
+    },
+    "43612154": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/24e570b3-1b07-47db-a8fc-fa2f7e191166/43612154-1?io=transform:extend,width:580,height:725",
+      "price": 40.0,
+      "release": "2025-05-23",
+      "sku": "43612154",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Slashing Legends Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-slashing-legends-tin-assorted-43612154/",
+      "was_price": null
+    },
+    "43612208": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/f4e55523-0a2a-4171-aea5-7f8bfb54ba32/43612208-1?io=transform:extend,width:580,height:725",
+      "price": 69.0,
+      "release": "2025-07-04",
+      "sku": "43612208",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Cynthia's Garchomp ex Premium Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-cynthia's-garchomp-ex-premium-collection-43612208/",
+      "was_price": null
+    },
+    "43615643": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/012e3061-64da-40db-a9ac-c97e85d06753/43615643-1?io=transform:extend,width:580,height:725",
+      "price": 99.0,
+      "release": "2025-07-18",
+      "sku": "43615643",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet and Violet White Flare Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-white-flare-elite-trainer-box-43615643/",
+      "was_price": null
+    },
+    "43615667": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/11cddfbe-314d-4525-8a30-130b961d8db2/43615667-1?io=transform:extend,width:580,height:725",
+      "price": 19.0,
+      "release": "2025-07-18",
+      "sku": "43615667",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Unova Mini Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-unova-mini-tin-assorted-43615667/",
+      "was_price": null
+    },
+    "43615681": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/936a6a19-9693-4357-9705-db9f0198daa5/43615681-1?io=transform:extend,width:580,height:725",
+      "price": 59.0,
+      "release": "2025-07-18",
+      "sku": "43615681",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet and Violet Black Bolt Binder Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-black-bolt-binder-collection-43615681/",
+      "was_price": null
+    },
+    "43615698": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/b95cc972-279d-4f9d-bc9c-98e3a2bf0b62/43615698-1?io=transform:extend,width:580,height:725",
+      "price": 59.0,
+      "release": "2025-07-18",
+      "sku": "43615698",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Scarlet and Violet White Flare Binder Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-white-flare-binder-collection-43615698/",
+      "was_price": null
+    },
+    "43617623": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/a9dacdab-72ee-49b3-916e-8afb4f7b341b/43617623-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2025-07-04",
+      "sku": "43617623",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Rival Battle Deck - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-rival-battle-deck-assorted-43617623/",
+      "was_price": null
+    },
+    "43647255": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/6401f4bf-e8d9-40df-a557-0a7033de66e9/43647255-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2025-09-12",
+      "sku": "43647255",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Team Rocket Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-team-rocket-tin-assorted-43647255/",
+      "was_price": null
+    },
+    "43648030": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/eab7eb4a-fbd1-4dc5-b679-8897b93457e5/43648030-1?io=transform:extend,width:580,height:725",
+      "price": 11.0,
+      "release": "2026-05-22",
+      "sku": "43648030",
+      "states": [
+        "ACT",
+        "NSW",
+        "QLD",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-pack-assorted-43648030/",
+      "was_price": null
+    },
+    "43648146": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fa137472-6701-4c95-9430-7c33a3ddd193/43648146-1?io=transform:extend,width:580,height:725",
+      "price": 8.5,
+      "release": "2025-09-26",
+      "sku": "43648146",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-blister-pack-assorted-43648146/",
+      "was_price": null
+    },
+    "43648177": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/ac13e8f1-8bb2-465c-b9cd-e421bc14ce0b/43648177-1?io=transform:extend,width:580,height:725",
+      "price": 26.0,
+      "release": "2025-09-26",
+      "sku": "43648177",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Evolution Three-Booster Blister Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-three-booster-blister-pack-assorted-43648177/",
+      "was_price": null
+    },
+    "43665945": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/1b59bdf2-ee7d-468d-946d-15309198daf6/43665945-1?io=transform:extend,width:580,height:725",
+      "price": 69.0,
+      "release": "2025-10-24",
+      "sku": "43665945",
+      "states": [
+        "NSW"
+      ],
+      "status": "preorder",
+      "title": "Pokemon Trading Card Game: Trainer's Toolkit",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-trainer's-toolkit-43665945/",
+      "was_price": null
+    },
+    "43675364": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/e1505d6f-f4e9-42b8-9f3a-d4779eeab897/43675364-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2025-10-24",
+      "sku": "43675364",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Battle Deck Mega Gengar Ex & Mega Diancie Ex - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-battle-deck-mega-gengar-ex-and-mega-diancie-ex-assorted-43675364/",
+      "was_price": null
+    },
+    "43675418": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/bf06636a-4dc2-4dae-9d38-6dfc405ee3f5/43675418-1?io=transform:extend,width:580,height:725",
+      "price": 59.0,
+      "release": "2025-11-21",
+      "sku": "43675418",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Lucario ex Figure Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-lucario-ex-figure-collection-43675418/",
+      "was_price": null
+    },
+    "43675500": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fb13ae7c-eaa6-4a3d-a97c-e73783d82c04/43675500-1?io=transform:extend,width:580,height:725",
+      "price": 22.0,
+      "release": "2025-12-05",
+      "sku": "43675500",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Enhanced 2 Pack Blister",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-enhanced-2-pack-blister-43675500/",
+      "was_price": null
+    },
+    "43718450": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/4e8ad458-b8f8-41b0-baaa-47e0a9e0e068/43718450-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-02-20",
+      "sku": "43718450",
+      "states": [
+        "SA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Ascended Heroes Collection - Erika/Larry - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-collection-erikalarry-assorted-43718450/",
+      "was_price": null
+    },
+    "43718696": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/0fb27eaa-0d8e-4ca5-a647-4182fb3ab2ae/43718696-1?io=transform:extend,width:580,height:725",
+      "price": 49.0,
+      "release": "2026-03-20",
+      "sku": "43718696",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Ascended Heroes First Partners Deluxe Pin Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-first-partners-deluxe-pin-collection-43718696/",
+      "was_price": null
+    },
+    "43718702": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/ff28bb58-a2b8-42fb-9aa9-52ee3e9cf570/43718702-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-02-20",
+      "sku": "43718702",
+      "states": [
+        "QLD",
+        "SA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Ascended Heroes Mini Tins - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-mini-tins-assorted-43718702/",
+      "was_price": null
+    },
+    "43718733": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/759c1b08-2b77-408a-8ada-e6d4f05ace93/43718733-1?io=transform:extend,width:580,height:725",
+      "price": 54.0,
+      "release": "2026-04-24",
+      "sku": "43718733",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Evolution Ascended Heroes Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-booster-bundle-43718733/",
+      "was_price": null
+    },
+    "43718740": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/28771d73-30f7-465e-905f-d64820be1372/43718740-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2026-04-24",
+      "sku": "43718740",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Evolution Ascended Heroes ex Box - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-ex-box-assorted-43718740/",
+      "was_price": null
+    },
+    "43724338": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/5829d94d-1db6-46ce-90c3-83084968967c/43724338-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2026-02-20",
+      "sku": "43724338",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Charizard Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-charizard-tin-assorted-43724338/",
+      "was_price": null
+    },
+    "43737024": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/000632ce-153e-471e-b7ac-cec9ac498c97/43737024-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2026-03-20",
+      "sku": "43737024",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: First Partner Illustration Collection - Series 1",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-first-partner-illustration-collection-series-1-43737024/",
+      "was_price": null
+    },
+    "43737048": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/1c99db68-bdd0-4521-a860-22598382eeed/43737048-1?io=transform:extend,width:580,height:725",
+      "price": 7.5,
+      "release": null,
+      "sku": "43737048",
+      "states": [],
+      "status": "instore",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Perfect Order Sleeved Booster - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-perfect-order-sleeved-booster-assorted-43737048/",
+      "was_price": null
+    },
+    "43737055": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/c0139d60-7a00-48ed-b7fe-2308d1864903/43737055-1?io=transform:extend,width:580,height:725",
+      "price": 26.0,
+      "release": "2026-03-27",
+      "sku": "43737055",
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Perfect Order 3-Booster Blister",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-perfect-order-3-booster-blister-43737055/",
+      "was_price": null
+    },
+    "43737062": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/a80ee763-2e1b-4598-85a4-c79159aee484/43737062-1?io=transform:extend,width:580,height:725",
+      "price": 100.0,
+      "release": "2026-03-27",
+      "sku": "43737062",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Perfect Order Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-perfect-order-elite-trainer-box-43737062/",
+      "was_price": null
+    },
+    "43737079": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/a2431e81-228a-42f1-81dd-2f1506d2f6bb/43737079-1?io=transform:extend,width:580,height:725",
+      "price": 50.0,
+      "release": "2026-03-27",
+      "sku": "43737079",
+      "states": [
+        "NSW",
+        "SA",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Perfect Order Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-perfect-order-booster-bundle-43737079/",
+      "was_price": null
+    },
+    "43744992": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/5f54731f-e834-4063-9e93-f932435a62b0/43744992-1?io=transform:extend,width:580,height:725",
+      "price": 22.0,
+      "release": "2026-04-10",
+      "sku": "43744992",
+      "states": [
+        "QLD",
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "2 Pack Pokemon Trading Card Game: Enhanced Blister",
+      "url": "https://www.kmart.com.au/product/2-pack-pokemon-trading-card-game:-enhanced-blister-43744992/",
+      "was_price": null
+    },
+    "43755998": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/471975c0-e670-44e1-9308-17c5dc5f4164/43755998-1?io=transform:extend,width:580,height:725",
+      "price": 80.0,
+      "release": "2026-05-22",
+      "sku": "43755998",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Zygarde ex Premium Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-zygarde-ex-premium-collection-43755998/",
+      "was_price": null
+    },
+    "43756025": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/1251c3bc-e9a1-444c-a6fe-bc6f67d16387/43756025-1?io=transform:extend,width:580,height:725",
+      "price": 299.0,
+      "release": "2026-05-22",
+      "sku": "43756025",
+      "states": [
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Chaos Rising Booster - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-chaos-rising-booster-assorted-43756025/",
+      "was_price": null
+    },
+    "43756032": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/c1b1e58b-04dd-4967-bef7-f551e4f1d561/43756032-1?io=transform:extend,width:580,height:725",
+      "price": 8.5,
+      "release": null,
+      "sku": "43756032",
+      "states": [],
+      "status": "instore",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Chaos Rising Sleeved Booster - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-chaos-rising-sleeved-booster-assorted-43756032/",
+      "was_price": null
+    },
+    "43756049": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/86592ef6-8258-4849-8edc-4846e0df6021/43756049-1?io=transform:extend,width:580,height:725",
+      "price": 26.0,
+      "release": "2026-05-22",
+      "sku": "43756049",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Chaos Rising 3-Booster Blister",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-chaos-rising-3-booster-blister-43756049/",
+      "was_price": null
+    },
+    "43756056": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/3d2c3fcf-b5a1-4d5e-96f6-e03437884635/43756056-1?io=transform:extend,width:580,height:725",
+      "price": 100.0,
+      "release": "2026-05-22",
+      "sku": "43756056",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Chaos Rising Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-chaos-rising-elite-trainer-box-43756056/",
+      "was_price": null
+    },
+    "43767236": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/a91003e5-5523-4389-9042-49bf7bd7e086/43767236-1?io=transform:extend,width:580,height:725",
+      "price": 40.0,
+      "release": "2026-07-01",
+      "sku": "43767236",
+      "states": [
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 2025 World Championships Deck - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-2025-world-championships-deck-assorted-43767236/",
+      "was_price": null
+    },
+    "43767250": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/ee857694-dee6-4532-b561-966318960192/43767250-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-06-05",
+      "sku": "43767250",
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Lumiose City Mini Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-lumiose-city-mini-tin-assorted-43767250/",
+      "was_price": null
+    },
+    "43767281": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/25249685-11e1-44a8-a7db-62c49bb0a950/43767281-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2026-06-05",
+      "sku": "43767281",
+      "states": [
+        "NSW",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Moonlit Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-moonlit-tin-assorted-43767281/",
+      "was_price": null
+    },
+    "43767304": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/30fb2211-6ee7-47bb-a89f-819a3c85d299/43767304-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2026-06-04",
+      "sku": "43767304",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Reshiram ex Box Pack",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-reshiram-ex-box-pack-43767304/",
+      "was_price": null
+    },
+    "43781645": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/16829d09-6c99-4265-97b3-fc7d524b8645/43781645-1?io=transform:extend,width:580,height:725",
+      "price": 80.0,
+      "release": "2026-07-03",
+      "sku": "43781645",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Greninja Ex Premium Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-greninja-ex-premium-collection-43781645/",
+      "was_price": null
+    },
+    "43788767": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/3e894cb7-38b4-499e-b5b8-05060dd8fba3/43788767-1?io=transform:extend,width:580,height:725",
+      "price": 8.5,
+      "release": "2026-10-20",
+      "sku": "43788767",
+      "states": [
+        "NSW",
+        "NT",
+        "QLD",
+        "SA",
+        "TAS",
+        "VIC",
+        "WA"
+      ],
+      "status": "preorder",
+      "title": "Pokemon Trading Card Game: Mega Evolution Pitch Black Sleeved Booster Pack - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-pitch-black-sleeved-booster-pack-assorted-43788767/",
+      "was_price": null
+    },
+    "43788774": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/c408f946-b0e5-4c26-bec6-daa44e516f5e/43788774-1?io=transform:extend,width:580,height:725",
+      "price": 26.0,
+      "release": "2026-07-17",
+      "sku": "43788774",
+      "states": [
+        "ACT"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Pitch Black 3-Booster Blister",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-pitch-black-3-booster-blister-43788774/",
+      "was_price": null
+    },
+    "43788781": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fc94f6f6-5bfb-47ba-b39e-4376d88f1266/43788781-1?io=transform:extend,width:580,height:725",
+      "price": 100.0,
+      "release": "2026-07-17",
+      "sku": "43788781",
+      "states": [],
+      "status": "unavailable",
+      "title": "Pokemon Trading Card Game: Mega Evolution Pitch Black Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-pitch-black-elite-trainer-box-43788781/",
+      "was_price": null
+    },
+    "43788798": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/38dfadea-6bd6-4616-97a3-608fd266743a/43788798-1?io=transform:extend,width:580,height:725",
+      "price": 50.0,
+      "release": "2026-07-17",
+      "sku": "43788798",
+      "states": [
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Pitch Black Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-pitch-black-booster-bundle-43788798/",
+      "was_price": null
+    },
+    "43808335": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/37a7e780-2f40-402e-9e23-12bf303759ce/43808335-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2026-08-07",
+      "sku": "43808335",
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "status": "preorder",
+      "title": "Pokemon TCG: First Partner Illustration Collection Series 3",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-first-partner-illustration-collection-series-3-43808335/",
+      "was_price": null
+    },
+    "43808342": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/2f30dee2-b8d0-47f0-a7f7-31bc340baeec/43808342-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-10-02",
+      "sku": "43808342",
+      "states": [
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Two-Booster Blister Pack",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-two-booster-blister-pack-43808342/",
+      "was_price": null
+    },
+    "43814121": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/85d36280-ec9b-41a1-9259-ec5e94c48358/43814121-1?io=transform:extend,width:580,height:725",
+      "price": 44.0,
+      "release": "2026-09-04",
+      "sku": "43814121",
+      "states": [
+        "NSW",
+        "SA",
+        "VIC"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution - Ascended Heroes Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-tin-assorted-43814121/",
+      "was_price": null
+    },
+    "43818549": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/36fb56f7-99e1-4336-880b-8ae68892b5c5/43818549-1?io=transform:extend,width:580,height:725",
+      "price": 45.0,
+      "release": "2026-09-15",
+      "sku": "43818549",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Pokemon ex Box - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-pokemon-ex-box-assorted-43818549/",
+      "was_price": null
+    },
+    "43818563": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/45275348-603d-45e6-ac88-45617abbbece/43818563-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2026-09-17",
+      "sku": "43818563",
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Poster Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-poster-collection-43818563/",
+      "was_price": null
+    },
+    "43818570": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/2284ad4b-3daf-4fc7-83fe-a4f6427a1fec/43818570-1?io=transform:extend,width:580,height:725",
+      "price": 30.0,
+      "release": "2026-09-17",
+      "sku": "43818570",
+      "states": [
+        "NSW",
+        "SA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Tech Sticker Collection - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-tech-sticker-collection-assorted-43818570/",
+      "was_price": null
+    },
+    "43818594": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/75bbff77-e8c0-4337-bbda-989bd4e89277/43818594-1?io=transform:extend,width:580,height:725",
+      "price": 65.0,
+      "release": "2026-09-15",
+      "sku": "43818594",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: 30th Celebration Binder Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-binder-collection-43818594/",
+      "was_price": null
+    },
+    "43818600": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/5ca1ae86-97a9-4d52-b0bc-16c495fa7ffd/43818600-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-10-02",
+      "sku": "43818600",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Mini Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-mini-tin-assorted-43818600/",
+      "was_price": null
+    },
+    "43818617": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/06b8ecc7-734c-465a-99da-e3d5635947c0/43818617-1?io=transform:extend,width:580,height:725",
+      "price": 54.0,
+      "release": "2026-10-02",
+      "sku": "43818617",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: 30th Celebration Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-booster-bundle-43818617/",
+      "was_price": null
+    },
+    "43818624": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/65582812-10f0-416d-b64c-87f8564b204f/43818624-1?io=transform:extend,width:580,height:725",
+      "price": 40.0,
+      "release": "2026-10-30",
+      "sku": "43818624",
+      "states": [
+        "NSW",
+        "QLD",
+        "SA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Battle Deck - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-battle-deck-assorted-43818624/",
+      "was_price": null
+    },
+    "43818631": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/1337d3ef-f689-41c2-8946-20febc072dc5/43818631-1?io=transform:extend,width:580,height:725",
+      "price": 80.0,
+      "release": "2026-11-20",
+      "sku": "43818631",
+      "states": [
+        "ACT",
+        "QLD",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: 30th Celebration Ditto Premium Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-30th-celebration-ditto-premium-collection-43818631/",
+      "was_price": null
+    },
+    "43818655": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/22994fd2-7c97-4951-9329-cd77b8a92b53/43818655-1?io=transform:extend,width:580,height:725",
+      "price": 60.0,
+      "release": "2026-11-20",
+      "sku": "43818655",
+      "states": [
+        "NSW",
+        "SA",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: 30th Celebration Figure Collection - Mew / Mewtwo - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-figure-collection-mew-mewtwo-assorted-43818655/",
+      "was_price": null
+    },
+    "43818662": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/fad1b329-16c6-441d-ba05-a611b7ec0662/43818662-1?io=transform:extend,width:580,height:725",
+      "price": 45.0,
+      "release": "2026-11-06",
+      "sku": "43818662",
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: 30th Celebration Tin - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-tin-assorted-43818662/",
+      "was_price": null
+    },
+    "43846511": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/2256433b-9038-41fa-8626-45b30333c3e7/43846511-1?io=transform:extend,width:580,height:725",
+      "price": 54.0,
+      "release": "2026-10-02",
+      "sku": "43846511",
+      "states": [
+        "NSW"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Scarlet & Violet - Shrouded Fable Booster Bundle - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-scarlet-and-violet-shrouded-fable-booster-bundle-assorted-43846511/",
+      "was_price": null
+    },
+    "43848645": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/cdea1bfa-f15f-420f-81cf-34fa70f1829a/43848645-1?io=transform:extend,width:580,height:725",
+      "price": 20.0,
+      "release": "2026-11-13",
+      "sku": "43848645",
+      "states": [
+        "NSW",
+        "QLD",
+        "SA",
+        "TAS",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Deck Crafter's Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-deck-crafter's-collection-43848645/",
+      "was_price": null
+    },
+    "43848669": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/94df7b92-6f78-4774-bdaf-fdc4c7d13c7c/43848669-1?io=transform:extend,width:580,height:725",
+      "price": 299.0,
+      "release": "2026-11-06",
+      "sku": "43848669",
+      "states": [
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Delta Reign 36 Booster Display",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-delta-reign-36-booster-display-43848669/",
+      "was_price": null
+    },
+    "43848676": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/512f0d72-5dd9-42a8-b8eb-2dec06b46abd/43848676-1?io=transform:extend,width:580,height:725",
+      "price": 8.5,
+      "release": "2026-11-06",
+      "sku": "43848676",
+      "states": [
+        "ACT",
+        "NSW",
+        "QLD",
+        "SA",
+        "TAS",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Delta Reign Sleeved Booster - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-delta-reign-sleeved-booster-assorted-43848676/",
+      "was_price": null
+    },
+    "43848683": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/caa7b309-c279-4608-8fa0-353967522507/43848683-1?io=transform:extend,width:580,height:725",
+      "price": 26.0,
+      "release": "2026-11-06",
+      "sku": "43848683",
+      "states": [
+        "NSW",
+        "QLD",
+        "SA",
+        "VIC",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Delta Reign Three-Booster Blister",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-delta-reign-three-booster-blister-43848683/",
+      "was_price": null
+    },
+    "43848706": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/ebfe7acf-f4db-45a2-bc25-5e69353e8736/43848706-1?io=transform:extend,width:580,height:725",
+      "price": 50.0,
+      "release": "2026-11-06",
+      "sku": "43848706",
+      "states": [
+        "NSW",
+        "SA",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Delta Reign Booster Bundle",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-delta-reign-booster-bundle-43848706/",
+      "was_price": null
+    },
+    "43848737": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/c1a66a84-4fac-443a-a2c7-8243a3e4da3e/43848737-1?io=transform:extend,width:580,height:725",
+      "price": 100.0,
+      "release": "2026-11-06",
+      "sku": "43848737",
+      "states": [
+        "NSW",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Delta Reign Elite Trainer Box",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-delta-reign-elite-trainer-box-43848737/",
+      "was_price": null
+    },
+    "43860678": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/97d5b017-628b-43c2-adc5-98a49bf37283/43860678-1?io=transform:extend,width:580,height:725",
+      "price": 60.0,
+      "release": "2027-01-22",
+      "sku": "43860678",
+      "states": [
+        "NSW",
+        "NT",
+        "QLD",
+        "SA",
+        "TAS",
+        "VIC",
+        "WA"
+      ],
+      "status": "preorder",
+      "title": "Pokemon TCG: Mega Greninja ex League Battle Deck",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-greninja-ex-league-battle-deck-43860678/",
+      "was_price": null
+    },
+    "43860685": {
+      "clearance": false,
+      "first_seen": "2026-11-21T05:21:48+00:00",
+      "image": "https://assets.kmart.com.au/transform/59e22a69-e072-47cf-badc-0aaf34a46ecd/43860685-1?io=transform:extend,width:580,height:725",
+      "price": 140.0,
+      "release": "2026-10-30",
+      "sku": "43860685",
+      "states": [
+        "QLD",
+        "WA"
+      ],
+      "status": "limited",
+      "title": "Pokemon TCG: Mega Evolution - Ascended Heroes Focused Fighters Premium Collection",
+      "url": "https://www.kmart.com.au/product/pokemon-tcg:-mega-evolution-ascended-heroes-focused-fighters-premium-collection-43860685/",
+      "was_price": null
+    }
+  },
+  "seeded": true
+}
