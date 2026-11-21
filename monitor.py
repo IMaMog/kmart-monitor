@@ -20,7 +20,6 @@ Environment:
     DISCORD_BOARD_WEBHOOK_URL  optional  channel for the live board (defaults to the alert webhook)
     DISCORD_PING               optional  mention added to alerts, e.g. <@123> or <@&456>
     INCLUDE_ACCESSORIES        optional  "true" to also track sleeves/binders/pages/toploaders
-    KMART_STATE                optional  e.g. "NSW": judge online stock for that state only
     KMART_PROXY                optional  fallback proxy if direct requests are blocked: host:port:user:pass
 """
 
@@ -215,7 +214,7 @@ def api_get(url: str, via_proxy: bool) -> dict:
 CLIENT_ID = str(uuid.uuid4())
 
 
-def fetch_products(include_accessories: bool, state: str) -> dict[str, dict]:
+def fetch_products(include_accessories: bool) -> dict[str, dict]:
     products: dict[str, dict] = {}
     page, per_page = 1, 200
     # Every check starts direct; KMART_FORCE_PROXY=1 (the workflow's proxy_only box) tests the proxy route.
@@ -253,7 +252,7 @@ def fetch_products(include_accessories: bool, state: str) -> dict[str, dict]:
                 continue
             if not include_accessories and is_accessory(title):
                 continue
-            p = normalise(hit, state)
+            p = normalise(hit)
             products[p["sku"]] = p
         if page * per_page >= int(resp.get("total_num_results") or 0) or not results:
             break
@@ -292,7 +291,7 @@ def current_price(d: dict) -> tuple[float, float | None]:
     return price, None
 
 
-def normalise(hit: dict, state: str) -> dict:
+def normalise(hit: dict) -> dict:
     d = hit.get("data") or {}
     # stateOOS lists the states where Kmart is out of stock online, e.g. {"NT": "6", "WA": "6"}.
     oos = set((d.get("stateOOS") or {}).keys())
@@ -306,13 +305,6 @@ def normalise(hit: dict, state: str) -> dict:
     if channel == CHANNEL_IN_STORE_ONLY:
         status = "instore"
         states_in = []
-    elif state:
-        if state not in states_in:
-            status = "unavailable"
-        elif d.get("isPreOrderActive"):
-            status = "preorder"
-        else:
-            status = "in_stock"
     elif not states_in:
         status = "unavailable"
     elif d.get("isPreOrderActive"):
@@ -376,11 +368,19 @@ def is_future(iso: str | None) -> bool:
 def where_text(p: dict) -> str | None:
     if p["status"] == "instore":
         return "In-store only"
-    if not p["states"]:
+    return states_text(p["states"])
+
+
+def states_text(states: list[str]) -> str | None:
+    """Where it's in stock online, in words: 'All states', 'Only in NSW, WA', 'All states except NT'."""
+    if not states:
         return None
-    if len(p["states"]) == len(STATES):
-        return "Online, all states"
-    return "Online: " + " · ".join(p["states"])
+    if len(states) == len(STATES):
+        return "All states"
+    missing = [s for s in STATES if s not in states]
+    if len(missing) < len(states):
+        return "All states except " + ", ".join(missing)
+    return "Only in " + ", ".join(states)
 
 
 def alert_embed(p: dict, kind: str) -> dict:
@@ -427,12 +427,12 @@ BOARD_SECTIONS = [
 ]
 
 
-def board_embeds(products: dict[str, dict], state: str = "") -> list[dict]:
+def board_embeds(products: dict[str, dict]) -> list[dict]:
     now = int(time.time())
     live = [p for p in products.values() if p["status"] in AVAILABLE]
 
     header = {
-        "title": "Kmart — Pokémon TCG available now" + (f" ({state})" if state else ""),
+        "title": "Kmart — Pokémon TCG available now",
         "url": BOARD_URL,
         "color": 0xE4002B,
         "description": (
@@ -466,8 +466,8 @@ def board_card(p: dict) -> dict:
         if rel:
             line1.append(f"out {rel}")
     line2 = []
-    if p["status"] == "limited":
-        line2.append(" · ".join(p["states"]))
+    if p["status"] in ("limited", "preorder") and len(p["states"]) < len(STATES):
+        line2.append(states_text(p["states"]))
     if p["clearance"]:
         line2.append("Clearance")
     card = {
@@ -532,8 +532,8 @@ def discord_delete(webhook: str, message_id: str) -> None:
         raise RuntimeError(f"Discord delete failed: HTTP {status}: {data}")
 
 
-def update_board(webhook: str, state: dict, products: dict[str, dict], region: str = "") -> None:
-    embeds = board_embeds(products, region)
+def update_board(webhook: str, state: dict, products: dict[str, dict]) -> None:
+    embeds = board_embeds(products)
     # Discord caps a message at 10 embeds: header + 9 cards in the first, 10 cards in each after.
     chunks = [embeds[i:i + 10] for i in range(0, len(embeds), 10)]
     payloads = [{"embeds": c, "allowed_mentions": {"parse": []}} for c in chunks]
@@ -694,7 +694,7 @@ def fetch_logged(cfg: dict) -> dict[str, dict]:
     t0 = time.time()
     started = datetime.now(timezone.utc)
     try:
-        current = fetch_products(cfg["include_acc"], cfg["state"])
+        current = fetch_products(cfg["include_acc"])
     except Exception as e:
         if cfg.get("log_polls"):
             log_csv("polls.csv", POLL_HEADER,
@@ -717,10 +717,10 @@ def run_once(cfg: dict, state_path: Path, dry_run: bool) -> int:
         return 0
     merged, _ = process(state, current, cfg, dry_run)
     if dry_run:
-        print(json.dumps({"embeds": board_embeds(merged, cfg["state"])}, indent=2, ensure_ascii=False))
+        print(json.dumps({"embeds": board_embeds(merged)}, indent=2, ensure_ascii=False))
         return 0
     state["products"] = merged
-    update_board(cfg["board_hook"], state, merged, cfg["state"])
+    update_board(cfg["board_hook"], state, merged)
     save_state(state, state_path)
     return 0
 
@@ -746,7 +746,7 @@ def run_loop(cfg: dict, state_path: Path, interval: float, dry_run: bool) -> int
                 state["products"] = merged
                 changed = json.dumps(merged, sort_keys=True) != before
                 if not dry_run and (changed or time.time() - last_board >= board_every):
-                    update_board(cfg["board_hook"], state, merged, cfg["state"])
+                    update_board(cfg["board_hook"], state, merged)
                     last_board = time.time()
                 if not dry_run and (changed or state.get("board_message_ids") != ids_before):
                     save_state(state, state_path)
@@ -781,16 +781,11 @@ def main() -> int:
     here = Path(__file__).parent
     load_dotenv(here / args.env_file)
     alert_hook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
-    region = os.environ.get("KMART_STATE", "").strip().upper()
-    if region and region not in STATES:
-        print(f"KMART_STATE must be one of {', '.join(STATES)} (got {region!r})", file=sys.stderr)
-        return 2
     cfg = {
         "alert_hook": alert_hook,
         "board_hook": os.environ.get("DISCORD_BOARD_WEBHOOK_URL", "").strip() or alert_hook,
         "ping": os.environ.get("DISCORD_PING", "").strip(),
         "include_acc": os.environ.get("INCLUDE_ACCESSORIES", "").lower() in ("1", "true", "yes"),
-        "state": region,
         "log_polls": bool(args.loop),
     }
     state_path = Path(args.state) if Path(args.state).is_absolute() else here / args.state

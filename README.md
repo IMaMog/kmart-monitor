@@ -2,7 +2,7 @@
 
 Works the same way as the JB Hi-Fi monitor. GitHub Actions checks Kmart every 15 minutes, one second past each quarter hour (hh:00:01, hh:15:01, hh:30:01, hh:45:01). It looks for Pokémon TCG products **sold by Kmart itself** (marketplace sellers like Gameology are excluded) and posts to Discord:
 
-- **Alerts**: an embed when a product is **newly listed** or comes **back in stock**. It shows price, status, release date for pre-orders, which states have online stock, and clearance.
+- **Alerts**: an embed when a product is **newly listed** or comes **back in stock**. It shows price, status, release date for pre-orders, where it's in stock (e.g. "Only in NSW, WA"), and clearance.
 - **Live board**: one card per available product, in the order Pre-orders → In stock → Limited stock → In-store only. The board is edited in place every run, so you pin it once. As with JB, it gets reposted (and needs re-pinning) when the product count crosses a multiple of 9 or 10. A dedicated board channel avoids pinning altogether.
 
 ## No browser or headers needed
@@ -37,12 +37,18 @@ Constructor doesn't carry a plain "in stock" flag, so status comes from these fi
 
 - `stateOOS` lists the states where Kmart is out of stock online, for example `{"NT": "6", "WA": "6"}`.
   - No states listed → **In stock**.
-  - Some states listed → **Limited stock**, and the board shows which states still have it.
+  - Some states listed → **Limited stock**, and the board says where, e.g. "Only in NSW, WA".
   - All 8 listed → **Sold out**.
 - `isPreOrderActive` → **Pre-order** (as long as at least one state has stock).
 - `FulfilmentChannel = 3` → **In-store only**. This covers sleeved boosters and cheap accessories. There's no online stock to watch for these, so they alert when first listed but can't alert on restocks.
 
-Set `KMART_STATE=NSW` (or whichever state you're in) to judge stock for your state only. A product then counts as in stock only if your state has it, so restock alerts mean "you can order it now".
+Alerts and board cards say where stock is in plain words, so one monitor covers the whole country:
+
+- **All states**: in stock online everywhere.
+- **Only in NSW, WA**: in stock in a few states (fewer than half).
+- **All states except NT, TAS**: in stock in most states.
+
+A restock alert fires when a product goes from sold out everywhere to in stock in at least one state.
 
 > These field meanings were inferred from the data: brand-new products show most states out, and old sold-out sets show all 8 out. They haven't been compared against the live site yet. Spot-check one or two products against the board before trusting it.
 
@@ -69,7 +75,6 @@ By default only sealed product is tracked. Set `INCLUDE_ACCESSORIES=true` to als
    | Secret | `DISCORD_BOARD_WEBHOOK_URL` | Board webhook URL (optional) |
    | Variable | `DISCORD_PING` | `<@YOUR_USER_ID>` or `<@&ROLE_ID>` (optional) |
    | Variable | `INCLUDE_ACCESSORIES` | `true` to include accessories (optional) |
-   | Variable | `KMART_STATE` | `NSW`, `VIC`, `QLD`, `WA`, `SA`, `TAS`, `ACT` or `NT` (optional) |
    | Secret | `KMART_PROXY` | Fallback proxy, `host:port:user:pass` (optional) |
 
 4. **Start it:** Actions tab → *Kmart Pokemon monitor* → Run workflow. The first run records what's listed without alerting, then posts the board. Pin the board message. To preview an alert, run it again with **Send a sample alert** ticked.
