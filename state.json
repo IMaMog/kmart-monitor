@@ -986,6 +986,7 @@
       "states": [
         "ACT",
         "QLD",
+        "TAS",
         "WA"
       ],
       "status": "limited",
@@ -1002,6 +1003,7 @@
       "sku": "43818655",
       "states": [
         "NSW",
+        "TAS",
         "WA"
       ],
       "status": "limited",
@@ -1020,7 +1022,6 @@
         "NSW",
         "SA",
         "TAS",
-        "VIC",
         "WA"
       ],
       "status": "limited",
