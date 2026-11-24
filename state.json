@@ -429,6 +429,21 @@
       "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-enhanced-2-pack-blister-43675500/",
       "was_price": null
     },
+    "43718443": {
+      "clearance": false,
+      "first_seen": "2026-11-24T02:32:32+00:00",
+      "image": "https://assets.kmart.com.au/transform/ac38c7cb-b797-44eb-9a9f-ea12e7dd8c5e/43718443-1?io=transform:extend,width:580,height:725",
+      "price": 32.0,
+      "release": "2026-02-13",
+      "sku": "43718443",
+      "states": [
+        "SA"
+      ],
+      "status": "limited",
+      "title": "Pokemon Trading Card Game: Mega Evolution Ascended Heroes Tech Sticker Collection - Assorted",
+      "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-mega-evolution-ascended-heroes-tech-sticker-collection-assorted-43718443/",
+      "was_price": null
+    },
     "43718450": {
       "clearance": false,
       "first_seen": "2026-11-21T05:21:48+00:00",
@@ -1004,7 +1019,6 @@
       "sku": "43818655",
       "states": [
         "NSW",
-        "TAS",
         "VIC",
         "WA"
       ],
