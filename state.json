@@ -55,7 +55,6 @@
       "release": null,
       "sku": "43451630",
       "states": [
-        "ACT",
         "NSW",
         "QLD",
         "SA",
@@ -999,7 +998,6 @@
       "release": "2026-11-20",
       "sku": "43818631",
       "states": [
-        "ACT",
         "QLD",
         "TAS",
         "VIC",
