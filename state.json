@@ -175,17 +175,8 @@
       "price": 44.0,
       "release": null,
       "sku": "43580651",
-      "states": [
-        "ACT",
-        "NSW",
-        "NT",
-        "QLD",
-        "SA",
-        "TAS",
-        "VIC",
-        "WA"
-      ],
-      "status": "in_stock",
+      "states": [],
+      "status": "unavailable",
       "title": "Pokemon Trading Card Game: Hop's Zacian Ex Box",
       "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-hop's-zacian-ex-box-43580651/",
       "was_price": null
