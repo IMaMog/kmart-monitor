@@ -897,7 +897,7 @@
       "release": "2026-09-15",
       "sku": "43818549",
       "states": [
-        "NSW"
+        "WA"
       ],
       "status": "limited",
       "title": "Pokemon Trading Card Game: 30th Celebration Pokemon ex Box - Assorted",
@@ -973,10 +973,8 @@
       "price": 54.0,
       "release": "2026-10-02",
       "sku": "43818617",
-      "states": [
-        "NSW"
-      ],
-      "status": "limited",
+      "states": [],
+      "status": "unavailable",
       "title": "Pokemon TCG: 30th Celebration Booster Bundle",
       "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-booster-bundle-43818617/",
       "was_price": null
@@ -1006,6 +1004,7 @@
       "release": "2026-11-20",
       "sku": "43818631",
       "states": [
+        "NSW",
         "VIC",
         "WA"
       ],
@@ -1202,6 +1201,7 @@
       "release": "2026-10-30",
       "sku": "43860685",
       "states": [
+        "NSW",
         "QLD",
         "WA"
       ],
