@@ -174,17 +174,8 @@
       "price": 44.0,
       "release": "2026-11-28",
       "sku": "43580651",
-      "states": [
-        "ACT",
-        "NSW",
-        "NT",
-        "QLD",
-        "SA",
-        "TAS",
-        "VIC",
-        "WA"
-      ],
-      "status": "preorder",
+      "states": [],
+      "status": "unavailable",
       "title": "Pokemon Trading Card Game: Hop's Zacian Ex Box",
       "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-hop's-zacian-ex-box-43580651/",
       "was_price": null
@@ -1004,8 +995,7 @@
       "sku": "43818631",
       "states": [
         "NSW",
-        "VIC",
-        "WA"
+        "VIC"
       ],
       "status": "limited",
       "title": "Pokemon Trading Card Game: 30th Celebration Ditto Premium Collection",
