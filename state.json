@@ -160,8 +160,7 @@
       "release": "2026-03-20",
       "sku": "43580606",
       "states": [
-        "NSW",
-        "QLD"
+        "NSW"
       ],
       "status": "limited",
       "title": "Pokemon Trading Card Game: Charizard Ex Special Collection",
@@ -173,7 +172,7 @@
       "first_seen": "2026-11-21T05:21:48+00:00",
       "image": "https://assets.kmart.com.au/transform/283cb926-6a37-4cac-8f18-1ee2e06571ca/43580651-1?io=transform:extend,width:580,height:725",
       "price": 44.0,
-      "release": null,
+      "release": "2026-11-28",
       "sku": "43580651",
       "states": [
         "ACT",
@@ -185,7 +184,7 @@
         "VIC",
         "WA"
       ],
-      "status": "in_stock",
+      "status": "preorder",
       "title": "Pokemon Trading Card Game: Hop's Zacian Ex Box",
       "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-hop's-zacian-ex-box-43580651/",
       "was_price": null
