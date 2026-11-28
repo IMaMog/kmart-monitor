@@ -962,8 +962,10 @@
       "price": 54.0,
       "release": "2026-10-02",
       "sku": "43818617",
-      "states": [],
-      "status": "unavailable",
+      "states": [
+        "VIC"
+      ],
+      "status": "limited",
       "title": "Pokemon TCG: 30th Celebration Booster Bundle",
       "url": "https://www.kmart.com.au/product/pokemon-tcg:-30th-celebration-booster-bundle-43818617/",
       "was_price": null
